@@ -8,4 +8,3 @@ client.chatManager.sendRaw(chat.channel,25,'',{
 "xconVersion":1,"s":0,
 "alt":"카카오 이모티콘"
 })
-}
