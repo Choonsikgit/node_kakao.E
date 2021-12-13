@@ -1,0 +1,11 @@
+//이모티콘
+var p = chat.Text.split(' ')[1];
+var w = chat.Text.split(' ')[2];
+var f = chat.Text.split(' ')[3];
+client.chatManager.sendRaw(chat.channel,25,'',{
+"name":"(이모티콘)",
+"url":p+".emot_"+w+".webp","type":"image/webp","width":f,"height":f,
+"xconVersion":1,"s":0,
+"alt":"카카오 이모티콘"
+})
+}
